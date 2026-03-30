@@ -1,30 +1,28 @@
+# 🐘 PHP Development & Exercises
+### Backend Logic & Database Integration
 
-# 📊 SQL Practice
-### Repository for Data Engineering Fundamentals
-
-This repository contains a collection of SQL scripts and exercises developed during my studies at **ETECVAV (Vasco Antônio Venchiarutti)**. The focus is on mastering DDL, DML, and complex queries to build a strong foundation for **Data Engineering**.
+This repository contains a collection of PHP scripts and web exercises developed during my studies at **ETECVAV (Vasco Antônio Venchiarutti)**. The focus is on mastering server-side logic, session management, and integrating databases to build a strong foundation for **Data Engineering** and Backend Development.
 
 ---
 
 ## 🚀 Overview
 
-The exercises cover various database engine standards (PostgreSQL/MySQL/SQL Server) and focus on:
-* **Basic Queries:** SELECT, WHERE, LIKE, and Ordering.
-* **Joins:** INNER, LEFT, RIGHT, and FULL JOINs.
-* **Aggregations:** GROUP BY, HAVING, and Aggregate Functions (SUM, AVG, COUNT).
-* **Data Modeling:** Creating tables, constraints, and relationships.
+The exercises cover fundamental and intermediate PHP concepts, focusing on:
+* **Syntax & Logic:** Variables, loops, arrays, and custom functions.
+* **Form Handling:** GET/POST methods and data validation.
+* **Session Management:** Cookies, login logic, and user persistence.
 
 ## 🛠️ Tech Stack
 
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /> 
-<img src="https://img.shields.io/badge/sqlserver-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/database-engineering-orange?style=for-the-badge" alt="Data Engineering" />
+<img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/apache-%23D22128.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />
+<img src="https://img.shields.io/badge/backend-engineering-blue?style=for-the-badge" alt="Backend" />
 
-## ✍️ Author
+## ✍️ Authors
 
 **Igor Fernandes & Igor Daniel Eustachio**
 * Students at **Escola Técnica Vasco Antônio Venchiarutti**.
-* Aspiring **Data Engineer** passionate about data architecture and automation.
 
 ---
 
