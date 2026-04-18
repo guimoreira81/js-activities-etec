@@ -1,0 +1,23 @@
+{
+  "name": "typescript-exercises",
+  "version": "1.0.0",
+  "description": "Typescript exercises from PHP ETEC exercises.",
+  "keywords": [
+    "exercises"
+  ],
+  "homepage": "https://github.com/guimoreira81/PHP-Activities#readme",
+  "bugs": {
+    "url": "https://github.com/guimoreira81/PHP-Activities/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimoreira81/PHP-Activities.git"
+  },
+  "license": "ISC",
+  "author": "guimoreira81",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
