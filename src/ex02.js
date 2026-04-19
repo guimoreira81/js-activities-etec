@@ -40,9 +40,13 @@ function verifyInput(message){
 	}
 }
 
+function roundNumber(number){
+	return Math.round(number*100)/100;
+}
+
 let data = verifyInput("Digite um número em Fahrenheit ou Celsius (Exemplos: 10F, 10C): ");
 if (data[0] == "f"){ 
-	console.log(`${data[1]}°F é igual a ${5/9*(data[1]-32)}°C!`);
+	console.log(`${data[1]}°F é igual a ${roundNumber(5/9*(data[1]-32))}°C!`);
 }else if (data[0] == "c"){
-	console.log(`${data[1]}°C é igual a ${5/9*data[1]+32}°F!`);
+	console.log(`${data[1]}°C é igual a ${roundNumber(5/9*data[1]+32)}°F!`);
 }

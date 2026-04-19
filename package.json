@@ -1,17 +1,17 @@
 {
-  "name": "js-activities",
+  "name": "js-activities-etec",
   "version": "1.0.0",
-  "description": "Javascript Activities",
+  "description": "Javascript Activities from ETEC",
   "keywords": [
     "js-activities"
   ],
-  "homepage": "https://github.com/guimoreira81/PHP-Activities#readme",
+  "homepage": "https://github.com/guimoreira81/js-activities-etec#readme",
   "bugs": {
-    "url": "https://github.com/guimoreira81/PHP-Activities/issues"
+    "url": "https://github.com/guimoreira81/js-activities-etec/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guimoreira81/PHP-Activities.git"
+    "url": "git+https://github.com/guimoreira81/js-activities-etec.git"
   },
   "license": "ISC",
   "author": "guimoreira81",
