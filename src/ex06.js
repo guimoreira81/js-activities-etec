@@ -1,5 +1,5 @@
 /*
-Data: 18/04/2026
+Data: 19/04/2026
 Autor: Guilherme
 Objetivo: Ler um número n e mostrar os n primeiros termos da sequência de Fibonacci
 
@@ -29,15 +29,11 @@ function verifyInput(message){
 
 const n = verifyInput("Digite um número inteiro positivo: ");
 
-let result = 0;
-let previous = [null, null];
+let list = [];
+let a = 0, b = 1;
 for (let i = 0; i<n; i++){
-    if (previous!=[null, null]){
-        result += previous[0]+previous[1];
-    }else{
-        result += 1;
-    }
-    previous = [previous[1], result];
+    list.push(a);
+    [a, b] = [b, a+b];
 }
 
-console.log(`Os ${n}° número da sequência de Fibonacci é ${result}`)
+console.log(`Os ${n} primeiros números da sequência de Fibonacci são: \n${list}`);
