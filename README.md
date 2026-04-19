@@ -14,6 +14,55 @@ node ex01.js # Execute the ex01.js script, for example
 > The output messages are in **Portuguese**;
 > I kept the `node_modules` folder because it only uses 1 module, and excludes the necessity from the final user to run `npm install`.
 
+## C# Activities Interpretation
+
+**`ex00_notas`**
+- Takes a student’s name;
+- Takes 3 grades;
+- Calculates the average;
+- Shows if the student is: Approved or Failed.
+
+**`lista1_ex01_imc`**
+- Reads your weight;
+- Reads your height;
+- Calculates your BMI;
+- Shows your health classification.
+
+**`lista1_ex02_idadenadadores`**
+- Reads the age;
+- Checks which age range it falls into;
+- Shows the classification;
+| Faixa Etária | Classificação        |
+|--------------|---------------------|
+| < 5          | Não pode ser classificado |
+| 5 – 7        | Infantil A          |
+| 8 – 10       | Infantil B          |
+| 11 – 13      | Juvenil A           |
+| 14 – 17      | Juvenil B           |
+| 18 – 25      | Sênior              |
+
+**`lista2_ex01_4numeros`**
+- Reads 4 numbers from the user;
+- Determines: The largest number and the smallest number;
+- Shows the results;
+
+**`lista2_ex02_ordemdecrescente`**
+- Reads 3 numbers;
+- Compares all possible combinations;
+- Prints them from largest to smallest;
+
+**`lista2_ex03_poligonos`**
+- Reads: Number of sides and side length;
+- Determines which polygon it is;
+- Calculates area for some shapes;
+- Shows the result.
+
+**`lista2_ex04_triangulos`**
+- Reads 3 values (sides of a triangle);
+- Checks if they can form a triangle;
+- If yes, then classifies it in Equilateral, Isosceles or Scalene;
+- Shows a message and an image.
+
 ## 🛠️ Tech Stack
 <img src="https://img.shields.io/badge/javascript-%23f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="Javascript" />
 <img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
