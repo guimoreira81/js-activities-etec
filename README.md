@@ -1,3 +1,19 @@
+# 💻 Javascript Development & Exercises
+
+This repository is a fork from **PHP Development & Exercises** containing a collection of Javascript code developed during pratical studies.
+You can run by opening the terminal, looking for the `./src` folder and executing the **js scripts** using `node`
+
+On the Terminal, type:
+```bash
+git clone https://github.com/guimoreira81/JS-Activities-ETEC # Clone this repository into your computer
+cd js-activities-etec/src; ls # Go to the source folder, and list all scripts
+node ex01.js # Execute the ex01.js script, for example
+```
+
+---
+
+**Original `README.md`**:
+
 # 🐘 PHP Development & Exercises
 ### Backend Logic & Database Integration
 

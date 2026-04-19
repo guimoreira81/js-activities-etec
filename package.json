@@ -1,9 +1,9 @@
 {
-  "name": "typescript-exercises",
+  "name": "js-activities",
   "version": "1.0.0",
-  "description": "Typescript exercises from PHP ETEC exercises.",
+  "description": "Javascript Activities",
   "keywords": [
-    "exercises"
+    "js-activities"
   ],
   "homepage": "https://github.com/guimoreira81/PHP-Activities#readme",
   "bugs": {
@@ -19,5 +19,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
