@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ex00_notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista1_ex01_imc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista1_ex02_idadenadadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista2_ex01_4numeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista2_ex02_ordemdecrescente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista2_ex03_poligonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="lista2_ex04_triangulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
