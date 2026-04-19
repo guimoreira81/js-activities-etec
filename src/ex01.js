@@ -7,7 +7,7 @@ Exercício 1 - Intervalo entre 100 e 200
 Faça um programa que receba um número e diga se este número está no intervalo entre 100 e 200.
 */
 
-// Execute esse programa no terminal, usando o comando "node index.js"
+// Execute esse programa no terminal, usando o comando "node ex01.js"
 const readline = require("readline-sync");
 
 // Verifica se o Input é um número, se não, pergunta de novo
