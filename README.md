@@ -12,7 +12,7 @@ node ex01.js # Execute the ex01.js script, for example
 
 > [!NOTE]
 > The output messages are in **Portuguese**;
-> I kept the `node_modules` folder because it only uses 1 module.
+> I kept the `node_modules` folder because it only uses 1 module, and excludes the necessity from the final user to run `npm install`.
 
 ## 🛠️ Tech Stack
 <img src="https://img.shields.io/badge/javascript-%23f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="Javascript" />
