@@ -32,6 +32,7 @@ node ex01.js # Execute the ex01.js script, for example
 - Reads the age;
 - Checks which age range it falls into;
 - Shows the classification;
+
 | Faixa Etária | Classificação        |
 |--------------|---------------------|
 | < 5          | Não pode ser classificado |
