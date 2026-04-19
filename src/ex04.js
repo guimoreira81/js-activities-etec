@@ -18,11 +18,10 @@ const readline = require('readline-sync');
 
 function verifyInput(message){
     while (true) {
-        console.log(message);
-        const input = readline.question();
+        const input = readline.question(message);
         
         const number = Number(input);
-        if (!Number.isNaN(number) && number>0){
+        if (!Number.isNaN(number) && number>0 && Number.isInteger(number)){
             return number;
         }
 
@@ -30,6 +29,7 @@ function verifyInput(message){
     }
 }
 
+console.log("--- Triângulo Numérico ---");
 const n = verifyInput("Digite um número inteiro positivo: ");
 
 for (let i = 1; i <= n; i++) {

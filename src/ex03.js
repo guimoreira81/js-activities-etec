@@ -12,8 +12,7 @@ const readline = require("readline-sync");
 
 function verifyInput(message, type){
     while (true){
-        console.log(message);
-        const input = readline.question();
+        const input = readline.question(message);
 
         if (!Number.isNaN(Number(input)) && type=="number"){
             return Number(input);
@@ -25,9 +24,10 @@ function verifyInput(message, type){
     }
 }
 
-let number1 = verifyInput("Digite o 1° Número: ", "number");
-let operator = verifyInput("Digite o Operador (+, -, * ou /): ", "operator");
-let number2 = verifyInput("Digite o 2° Número: ", "number");
+console.log("--- Calculadora Aritmética de 2 Números ---");
+const number1 = verifyInput("Digite o 1° Número: ", "number");
+const operator = verifyInput("Digite o Operador (+, -, * ou /): ", "operator");
+const number2 = verifyInput("Digite o 2° Número: ", "number");
 
 let result = null;
 switch (operator){

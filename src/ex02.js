@@ -12,8 +12,7 @@ const readline = require("readline-sync");
 
 function verifyInput(message){
 	while (true){
-		console.log(message);
-		let input = readline.question();
+		const input = readline.question(message);
 
 		let type = null;
 		let number = null;
@@ -21,7 +20,7 @@ function verifyInput(message){
 
 		// Conseguir Numero
 		let firstNumberMatch = input.match(/-?\d+/g);
-		if (firstNumberMatch != null && Number(firstNumberMatch[0]) != NaN){
+		if (firstNumberMatch != null && !Number.isNaN(Number(firstNumberMatch[0]))){
 			number = Number(firstNumberMatch[0]);
 		}
 		
@@ -44,9 +43,10 @@ function roundNumber(number){
 	return Math.round(number*100)/100;
 }
 
+console.log("--- Conversor de Celsius/Fahrenheit ---");
 let data = verifyInput("Digite um número em Fahrenheit ou Celsius (Exemplos: 10F, 10C): ");
 if (data[0] == "f"){ 
 	console.log(`${data[1]}°F é igual a ${roundNumber(5/9*(data[1]-32))}°C!`);
 }else if (data[0] == "c"){
-	console.log(`${data[1]}°C é igual a ${roundNumber(5/9*data[1]+32)}°F!`);
+	console.log(`${data[1]}°C é igual a ${roundNumber((9/5*data[1])+32)}°F!`);
 }

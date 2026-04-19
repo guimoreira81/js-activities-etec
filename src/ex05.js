@@ -11,8 +11,7 @@ const readline = require("readline-sync");
 
 function verifyInput(message){
     while (true){
-        console.log(message);
-        const input = readline.question();
+        const input = readline.question(message);
 
         const number = Number(input);
         if (!Number.isNaN(number)){
@@ -22,6 +21,8 @@ function verifyInput(message){
         console.log("Não entendi, tente de novo.");
     }
 }
+
+console.log("--- Calcular a Soma dos Fatoriais ---");
 
 let numbers = [];
 
@@ -47,4 +48,4 @@ let sumOfAllFactorials = 0;
 for (sum of factorials){
     sumOfAllFactorials += sum;
 }
-console.log(`A soma de todos os fatoriais é ${sumOfAllFactorials}`);
+console.log(`A soma de todos esses fatoriais é ${sumOfAllFactorials}`);

@@ -16,17 +16,17 @@ const readline = require("readline-sync");
 
 function verifyInput(message){
     while (true){
-        console.log(message);
-        const input = readline.question();
+        const input = readline.question(message);
 
-        let number = Number(input);
-        if (!Number.isNaN(number) && number >= 0){
+        const number = Number(input);
+        if (!Number.isNaN(number) && number >= 0 && Number.isInteger(number)){
             return number;
         }
         console.log("Não entendi, tente de novo.");
     }
 }
 
+console.log("--- Calcular N primeiros números da Sequência de Fibonacci ---");
 const n = verifyInput("Digite um número inteiro positivo: ");
 
 let list = [];

@@ -16,8 +16,8 @@ function verifyInput(){
     while (true){
         const input = readline.question();
 
-        let number = Number(input);
-        if (Number.isNaN(number) || Math.floor(number)==number){
+        const number = Number(input);
+        if (!Number.isNaN(number) && Number.isInteger(number)){
             return number;
         }
 
@@ -25,6 +25,7 @@ function verifyInput(){
     }
 }
 
+console.log("--- Separar Números Inteiros de Positivos e Negativos ---");
 console.log("Digite 8 números inteiros, sendo eles positivos ou negativos:");
 
 let positives = [];

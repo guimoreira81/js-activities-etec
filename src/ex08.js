@@ -11,11 +11,10 @@ const readline = require("readline-sync");
 
 function verifyInput(message){
     while (true){
-        console.log(message);
-        const input = readline.question();
+        const input = readline.question(message);
 
-        let number = Number(input);
-        if (!Number.isNaN(number) && Math.floor(number)==number){
+        const number = Number(input);
+        if (!Number.isNaN(number) && Number.isInteger(number)){
             return number;
         }
 
@@ -26,17 +25,19 @@ function verifyInput(message){
 function soma(n){
     let sum = 0;
     if (n>0){
-        for (let i = 0; i<n+1; i++){
+        for (let i = 0; i<=n; i++){
             sum+=i;
         }
     }else{
-        for (let i = 0; i>n-1; i--){
+        for (let i = 0; i>=n; i--){
             sum+=i;
         }
     }
     return sum;
 }
 
+console.log("--- Calcular a soma de todos os números inteiros de N até 0 ---");
+
 const number = verifyInput("Digite um número inteiro: ");
 let result = soma(number);
-console.log(`A soma de todos os números, de 0 até ${number} é ${result}.`);
+console.log(`A soma de todos os números inteiros, de 0 até ${number} é ${result}.`);

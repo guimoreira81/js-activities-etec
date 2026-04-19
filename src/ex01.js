@@ -10,20 +10,22 @@ Faça um programa que receba um número e diga se este número está no interval
 // Execute esse programa no terminal, usando o comando "node ex01.js"
 const readline = require("readline-sync");
 
-// Verifica se o Input é um número, se não, pergunta de novo
+// Verifica se o Input é um número, se não, perguntar de novo
 function verifyInput(message){
 	while (true){
-		console.log(message);
-		let input = readline.question();
-		if (!isNaN(input)){
-			return Number(input);
+		const input = readline.question(message);
+
+		const number = Number(input);
+		if (!Number.isNaN(number)){
+			return number;
 		}else{
 			console.log("Não entendi, tente de novo.");
 		}
 	}
 }
 
-let number = verifyInput("Digite em Número para verificar se ele está entre 100 e 200: ");
+console.log("--- Verificar se Número está entre 100 e 200 ---");
+const number = verifyInput("Digite em Número para verificar se ele está entre 100 e 200: ");
 
 if (number >= 100 && number <= 200){
 	console.log(`O número ${number} está entre 100 e 200!`);
