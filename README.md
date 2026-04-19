@@ -1,14 +1,27 @@
 # 💻 Javascript Development & Exercises
 
-This repository is a fork from **PHP Development & Exercises** containing a collection of Javascript code developed during pratical studies.
-You can run by opening the terminal, looking for the `./src` folder and executing the **js scripts** using `node`
+This repository is a fork from **PHP Development & Exercises** containing a collection of **Javascript** code developed during practical studies.
+You can run by opening the terminal, looking for the `./src` folder and executing the **Javascript** using **Node**.
 
 On the Terminal, type:
 ```bash
-git clone https://github.com/guimoreira81/JS-Activities-ETEC # Clone this repository into your computer
+git clone https://github.com/guimoreira81/js-activities-etec # Clone this repository into your computer
 cd js-activities-etec/src; ls # Go to the source folder, and list all scripts
 node ex01.js # Execute the ex01.js script, for example
 ```
+
+> [!NOTE]
+> The output messages are in **Portuguese**;
+> I kept the `node_modules` folder because it only uses 1 module.
+
+## 🛠️ Tech Stack
+<img src="https://img.shields.io/badge/javascript-%23f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="Javascript" />
+<img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
+<img src="https://img.shields.io/badge/npm-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM" />
+
+## ✍️ Author
+**Guilherme Moreira**
+*Self-taught*.
 
 ---
 
